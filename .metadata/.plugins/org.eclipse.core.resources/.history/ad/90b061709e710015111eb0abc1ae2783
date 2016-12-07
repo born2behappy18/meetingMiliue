@@ -1,0 +1,30 @@
+package com.meetingmileu.occasus;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ToggleButton;
+
+public class Toggle extends Activity{
+
+	ToggleButton tgbBluetooth,tgbWifi,tgbData;
+	Button bProfile,bSave;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.toggle);
+		declare();
+	}
+	
+	private void declare() {
+		// TODO Auto-generated method stub
+		tgbBluetooth = (ToggleButton)findViewById(R.id.tgbBluetooth);
+		tgbWifi = (ToggleButton) findViewById(R.id.tgbWifi);
+		tgbData = (ToggleButton) findViewById(R.id.tgbdata);
+		bProfile = (Button) findViewById(R.id.bProfile);
+		bSave = (Button) findViewById(R.id.bSave);
+	}
+
+	
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_marginLeft="30dp">
+
+    <TextView
+        android:id="@+id/tvdoesnotrepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Does Not Repeat"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tveveryday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every Day"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tveveryweek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every Week"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tveverymonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every Month"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tveveryyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every Year"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvcustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom..."
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

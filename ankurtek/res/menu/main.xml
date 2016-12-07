@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ankurtek.MainActivity" >
+
+    <item
+        android:id="@+id/aboutUs"
+        android:title="About Us"/>
+     <item
+        android:id="@+id/preferences"
+        android:title="Preferences"/>
+	<item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+</menu>

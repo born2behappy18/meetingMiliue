@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Create Event"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40dp" />
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_parent"
+    android:orientation="horizontal" >
+    
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/name" />
+    
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="150dp"
+        android:layout_height="224dp"
+        android:startYear="2015"
+        android:minDate="10/9/2015" />
+
+</LinearLayout>

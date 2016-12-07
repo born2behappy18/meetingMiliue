@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meetingmileu.occasus.MainActivity"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bNewEvent"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="CREATE NEW EVENT"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/bContactExcep"
+        android:layout_width="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CONTACTS EXCEPTION" />
+
+    <Button
+        android:id="@+id/bUrgentsms"
+        android:layout_width="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="URGENT SMS" />
+
+    <Button
+        android:id="@+id/bQuickSilent"
+        android:layout_width="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="QUICK SILENT" />
+
+    <Button
+        android:id="@+id/bShowEvent"
+        android:layout_width="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SHOW EVENTS" />
+
+    <Button
+        android:id="@+id/bSync"
+        android:layout_width="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SYNC" />
+
+</LinearLayout>
+    
